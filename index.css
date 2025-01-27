@@ -1,1 +1,92 @@
+body {
+    background-color: black;
+}
 
+h1 {
+    color: antiquewhite;
+    font-family:'Courier New', Courier, monospace ;
+    font-size: 3vw;
+}
+h2 {
+    color: antiquewhite;
+    font-family:'Courier New', Courier, monospace ;
+}
+
+
+
+main {
+    display: flex;
+    background-color: black;
+    padding: 2vw;
+    border-radius: 1vw;
+}
+
+label#countL {
+    display: block;
+    font-size: 5vw;
+    text-align: center;
+}
+
+button {
+    background-color: black;
+    padding: 0.5vw;
+    border-radius: 1vw;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    font-size: 1vw;
+}
+
+button.a1 {
+    text-align: center;
+    justify-content: space-around;
+    background-color: black;
+    padding: 1vw;
+    border-radius: 1vw;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    margin-top: 2vw;
+}
+
+#number-area {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+input#input-number {
+    padding: 0.6vw;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    border-radius: 1vw;
+    border-color: gray;
+    border-style: solid;
+    background-color: black;
+    color: white;
+}
+
+article#block1 {
+    padding: 3vw;
+    align-items: center;
+    justify-content: space-around;
+}
+
+div#colorbox {
+    background-color: aqua;
+    padding: 2vw;
+    width: 20vw;
+    height: 20vw;
+}
+
+#colorInput {
+    border-radius: 10vw;
+    border-style: solid;
+}
+
+label#countL {
+    color: white
+}

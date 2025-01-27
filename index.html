@@ -5,11 +5,35 @@
   <title>Contador</title>
   <meta name="author" content="RhuanSantos">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="index.css"> 
+  <link rel="stylesheet" href="index.css">
+
 </head>
 
 <body>
   <header>
     <h1> Contador </h1>
   </header>
+
+  <main id="main1">
+    <article id="block1">
+      <label id="countL">0</label> <br>
+      <div id="number-area">
+        <input id="input-number" placeholder="coloque um número aqui"><br><br>
+        <button id="submit">submit</button><br><br>
+      </div>
+      <div id="buttons">
+        <button class="a1" id="diminuir">diminuir</button>
+        <button class="a1" id="resetar">resetar</button>
+        <button class="a1" id="aumentar">aumentar</button>
+      </div>
+      <div style="padding: 2vw 0vw 2vw 0vw;"><div style="padding:0.1vw; background-color: white; border-radius: 2vw;"></div></div>
+      <h2>Color</h2>
+    </article>
+    <article id="block2">
+      <div id="colorbox"></div>
+      <input id="colorInput" type="color">
+    </article>
+    <script src="index.js"></script>
+  </main>
 </body>
+</html>
